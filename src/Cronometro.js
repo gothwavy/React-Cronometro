@@ -57,9 +57,11 @@ export default function Cronometro() {
     <div>
       <h2>Cronômetro</h2>
       <div>
-        <span>{horas < 10 ? `0${horas}` : horas}</span> :
-        <span>{minutos < 10 ? `0${minutos}` : minutos}</span> :
+        <p>
+        <span>{horas < 10 ? `0${horas}` : horas}</span>:
+        <span>{minutos < 10 ? `0${minutos}` : minutos}</span>:
         <span>{segundos < 10 ? `0${segundos}` : segundos}</span>
+        </p>
       </div>
       <div>
 
